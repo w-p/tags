@@ -21,10 +21,18 @@ tags \
 ```
 
 ### Installation
+From source:
 ```
 git clone https://github.com/w-p/tags.git
 cd tags
 go clean && go install
+```
+Or just install the binary:
+```
+sudo wget -qO \
+    /usr/local/bin/tags \
+    https://raw.githubusercontent.com/w-p/tags/master/bin/tags-master
+sudo chmod +x /usr/local/bin/tags
 ```
 
 ### License
